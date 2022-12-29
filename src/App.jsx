@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { ColoredMessage } from "./components/ColoredMessage";
-import { CssModules } from "./components/CssModules";
 import { StyledJsx } from "./components/StyledJsx";
 import { StyledComponents } from "./components/StyledComponents";
 import { Emotion } from "./components/Emotion";
@@ -19,7 +18,6 @@ export const App = () => {
       <ColoredMessage color="pink">元気です!</ColoredMessage>
       <button onClick={onClickBotton}>ボタン</button>
       <p>{num}</p>
-      <CssModules/>
       <StyledJsx/>
       <StyledComponents/>
       <Emotion/>
